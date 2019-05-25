@@ -15,9 +15,8 @@ var usuarios = [
         habilidades: ["VueJS", "Ruby on Rails", "Elixir"]
     },
     {
-        nome: "Bruno"
-        habilidades: ["Javascript" "foo" "bar"]
-
+        nome: "Bruno",
+        habilidades: ["Javascript", "Foo", "Bar"]
     }
 ];
 
