@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Exercicio - 03 - Modulo 02</title>
+</head>
+
+<body>
+    <ul>
+    </ul>
+
+    <input type="text" name="nome">
+    <button onClick="adicionar()">Adicionar</button>
+
+    <script>
+        var nomes = ["Diego", "Gabriel", "Lucas"];
+        var ListElement = document.querySelector('ul');
+        var inputElement = document.querySelector('input');
+
+        function addItem(text) {
+            var liElement = document.createElement('li');
+            var textElement = document.createTextNode(text);
+
+            liElement.appendChild(textElement);
+            ListElement.appendChild(liElement);
+        }
+
+        function adicionar() {
+            addItem(inputElement.value);
+            inputElement.value = "";
+        }
+
+        for (nome of nomes) {
+            addItem(nome);
+        }
+    </script>
+</body>
+
+</html>
