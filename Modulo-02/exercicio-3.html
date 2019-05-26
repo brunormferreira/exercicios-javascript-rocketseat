@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Exercicio - 03 - Modulo 02</title>
+</head>
+
+<body>
+    <ul>
+    </ul>
+
+    <script>
+        var nomes = ["Diego", "Gabriel", "Lucas"];
+
+        var ListElement = document.querySelector('ul');
+
+        for (nome of nomes) {
+            var liElement = document.createElement('li');
+            var textElement = document.createTextNode(nome);
+
+            liElement.appendChild(textElement);
+            ListElement.appendChild(liElement);
+        }
+    </script>
+</body>
+
+</html>
