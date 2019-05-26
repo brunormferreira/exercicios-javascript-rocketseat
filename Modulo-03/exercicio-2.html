@@ -1,0 +1,50 @@
+<!-- Crie uma tela com um <input> que deve receber o nome de um usuário no Github. Após digitar o nome do usuário e clicar no botão buscar a aplicação deve buscar pela API do Github (conforme URL abaixo) os dados de repositórios do usuário e mostrá-los em tela:
+URL de exemplo: https://api.github.com/users/diego3g/repos
+Basta alterar "diego3g" pelo nome do usuário.
+<input type="text" name="user">
+<button onclick="">Adicionar</button>
+Depois de preencher o input e adicionar, a seguinte lista deve aparecer abaixo:
+<ul>
+ <li>repo1</li>
+ <li>repo2</li>
+ <li>repo3</li>
+ <li>repo4</li>
+ <li>repo5</li>
+</ul> -->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Exercicio - 02 - Modulo 03</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body class="bg-secondary" text-white>
+    <header class="bg-light text-center mx-auto pt-2 pb-2">
+        <h1>Repositórios Github :)</h1>
+    </header>
+    <div class="container text-center">
+        <div class="row">
+            <div class="col-md-6 mx-auto mt-2">
+                <input class="form-control-lg mt-1" type="text" name="user" placeholder="Nome do usuário">
+                <button class="btn-lg btn-dark" onclick="listRepositories()">Buscar repositórios</button>
+                <div class="row">
+                    <div class="mx-auto text-center text-white">
+                        <h6>Repositórios:</h6>
+                        <ul class="list-group">
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script>
+
+        </script>
+</body>
+
+</html>
