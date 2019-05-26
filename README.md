@@ -1,6 +1,6 @@
 ## **Exercícios realizados durante o curso de javascript na plataforma https://rocketseat.com.br!**
 
-### **Curso baseado em 4 etapas!**
+### **Curso baseado em 3 etapas!**
 
 - *Modulo-01*
 - *Modulo-02*
